@@ -18,7 +18,7 @@ h1 {
 {
     animation-duration: 800ms;
 }
-.animate__fadeInTopRight,.animate__fadeInTopLeft 
+.animate__fadeInRight,.animate__fadeInLeft ,.animate__bounceInUp
 {
     animation-duration: 1500ms;
 }
@@ -57,27 +57,24 @@ h1 {
     transition: all .5s;
 }
 .car-image:hover{
-    transform: scale(1.15);
-}
-#bt {
-    text-decoration: none;
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1.2rem;
+    transform: scale(1.25);
 }
 
 .btn {
     margin-top: 30px;
     background-color: aqua;
-    border: 1px;
+    border: 0.5px solid rgb(208, 196, 196);
     border-radius: 5px;
     height: 3rem;
     text-decoration: none;
     transition: all 0.5s;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 .btn:hover{
     box-shadow:5px 5px 10px grey;
-    transform: translate(5px,5px);
+    transform: translate(15px,15px)  scale(1.15);
 }
 .line1,.line2{
     width: 29rem;
@@ -97,7 +94,6 @@ h1 {
     .car-image {
         width: 5rem;
         height: 5rem;
-        padding-top: auto;
     }
     .line1,.line2{
         width: 20rem;
